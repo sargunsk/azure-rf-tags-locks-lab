@@ -1,0 +1,16 @@
+# Azure Tags + Locks Lab - Notes
+
+Date: April 2025
+
+- Created Resource Group: RG-LockedLab
+- Region: East US
+- Tags Applied:
+  - Environment = Lab
+  - Owner = Sargun
+  - CostCenter = AzureLearning
+  - Project = ResourceLockTest
+- Lock Applied:
+  - Name: Delete-Protect
+  - Type: Delete
+  - Notes: Prevents accidental deletion of resources
+- Tested by trying to delete a storage account (blocked by lock)
